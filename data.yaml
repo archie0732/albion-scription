@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['mine_ii', 'mine_iii', 'out_mine']
+
+roboflow:
+  workspace: albionmine-3pox0
+  project: albion_mine_v2-nshps
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/albionmine-3pox0/albion_mine_v2-nshps/dataset/2
